@@ -1,0 +1,77 @@
+
+/* DISEÑO GENERAL */
+body {
+    background: linear-gradient(135deg, #100b1c, #29133b, #120d20);
+    color: #f5e6d3;
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* TITULO PRINCIPAL */
+header {
+    background-color: #190e27;
+    padding: 40px 20px;
+    border-bottom: 3px solid #e58b32;
+}
+
+h1 {
+    color: #ffad50;
+    font-family: Georgia, serif;
+    font-size: 42px;
+    text-shadow: 3px 3px 8px #a13b87;
+}
+
+header p {
+    color: #e6c5ef;
+    font-size: 18px;
+}
+
+/* SECCIONES */
+main {
+    max-width: 850px;
+    margin: 35px auto;
+    padding: 20px;
+}
+
+section {
+    background: rgba(255, 255, 255, 0.06);
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+    color: #e9a0dc;
+    font-size: 28px;
+}
+
+/* IMAGEN */
+img {
+    width: 80%;
+    max-width: 450px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px #a64c9b;
+    transition: transform 0.5s;
+}
+
+img:hover {
+    transform: scale(1.04);
+}
+
+/* POEMA */
+.poema p {
+    font-size: 20px;
+    line-height: 2;
+    color: #f7dfc7;
+}
+
+/* PIE DE PAGINA */
+footer {
+    background-color: #190e27;
+    padding: 20px;
+    color: #e9a0dc;
+    border-top: 2px solid #e58b32;
+}
